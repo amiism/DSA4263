@@ -1,0 +1,34 @@
+Field name          				        Type               Description
+id                  				        Int64              Unique identifier assigned to each user profile
+name		    				                Object 	       	   Name associated with the user profile 
+screen_name	   				              Object             User handle
+statuses_count      				        Int64 	           Total number of tweets or status updates made by the user 
+followers_count     				        Int64	       	     Number of followers the user has
+friends_count 	    				        Int64 	           Number of accounts the user follows 
+favourites_count    				        Int64 	           Total number of tweets the user has marked as favourites 
+listed_count        				        Int64 	       	   Number of public lists the user is a member of 
+lang		    				                Object 	       	   Language preference set for the user profile 
+time_zone                           Object   	         Time zone specified in the user profile 
+location	    				              Object             Location information provided in the user profile 
+default_profile	    				        Float64 	         Binary indicator of whether the user profile has default settings 
+geo_enabled	    				            Float64   	       Binary indicator of whether geo-tagging is enabled in the user profile
+profile_banner_url  				        Object             URL of the user's profile image 
+profile_image_url   				        Object 	           URL of the user's profile banner 
+profile_use_background_image        Float64		         Indicator of whether the user's background image is used
+profile_background_image_url_https  Object 		         URL of the user's background image (HTTPS)
+profile_text_color 				          Object 		         Color of the text used in the user's profile 
+profile_image_url_https				      Object 		         HTTPS URL of the user's profile image 
+profile_sidebar_border_color			  Object 		         Color of the sidebar border in the user's profile 
+profile_sidebar_fill_color 			    Object		         Color of the sidebar fill in the user's profile
+profile_background_image_url 			  Object 		         URL of the user's background image 
+profile_background_color		        Object 		         Colour of the background in the user's profile 
+profile_link_color 				          Object 		         Color of the links in the user's profile 
+utc_offset 					                Float64		         Offset from Coordinated Universal Time (UTC) specified in the user profile 
+description					                Object 		         Description or bio provided in the user profile
+created_at 					                Object 		         Date and time when the user profile was created 
+timestamp 					                Object 	           Timestamp of last activity 
+crawled_at                          Object             Timestamp indicating the date and time of data retrieval 
+updated                             Object             Timestamp indicating the last update of the data 
+testset 1                           Float64            Experimental subset for evaluation or validation purposes (Set 1)
+testset 2                           Float64            Experimental subset for evaluation or validation purposes (Set2) 
+Type                                Object             Categorisation of the user profile as genuine or bot
