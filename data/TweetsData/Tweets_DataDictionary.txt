@@ -1,8 +1,8 @@
 Field Name	                Type	        Description
 id                          int64	        Unique identifier for each tweet
 text	                      object	      The actual text content of the tweet
-source                          object	      The source application or device used to post the tweet
-user_id                          float64	      User ID associated with the tweet
+source                      object	      The source application or device used to post the tweet
+user_id                     float64	      User ID associated with the tweet
 truncated	                  float64	      Indicates if the tweet is truncated
 in_reply_to_status_id	      float64	      ID of the tweet this tweet is replying to
 in_reply_to_user_id	        float64	      User ID of the user this tweet is replying to
