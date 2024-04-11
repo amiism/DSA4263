@@ -1,6 +1,6 @@
 Field name          				        Type               Description
 id                  				        Int64              Unique identifier assigned to each user profile
-name		    				                Object 	       	   Name associated with the user profile 
+name		    				               Object 	       	   Name associated with the user profile 
 screen_name	   				              Object             User handle
 statuses_count      				        Int64 	           Total number of tweets or status updates made by the user 
 followers_count     				        Int64	       	     Number of followers the user has
