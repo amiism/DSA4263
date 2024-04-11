@@ -1,0 +1,27 @@
+Field Name	                Type	        Description
+id	                        int64	        Unique identifier for each tweet
+text	                      object	      The actual text content of the tweet
+source	                    object	      The source application or device used to post the tweet
+user_id	                    float64	      User ID associated with the tweet
+truncated	                  float64	      Indicates if the tweet is truncated
+in_reply_to_status_id	      float64	      ID of the tweet this tweet is replying to
+in_reply_to_user_id	        float64	      User ID of the user this tweet is replying to
+in_reply_to_screen_name	    object	      Screen name of the user this tweet is replying to
+retweeted_status_id	        float64	      ID of the original tweet that was retweeted (0 if it is not a retweet)
+geo	                        float64	      Geographic information associated with the tweet
+place	                      object	      Geographic place associated with the tweet
+contributors	              float64	      Users who contributed to the tweet
+retweet_count	              float64	      Number of times this tweet has been retweeted
+reply_count	                float64	      Number of replies to this tweet
+favorite_count	            float64	      Number of times this tweet has been favorited
+favorited	                  float64	      Indicates if the tweet has been favorited
+retweeted	                  float64	      Indicates if the tweet has been retweeted
+possibly_sensitive	        float64      	Indicates if the tweet content may be sensitive
+num_hashtags	              float64	      Number of hashtags in the tweet
+num_urls	                  float64	      Number of URLs in the tweet
+num_mentions	              float64      	Number of user mentions in the tweet
+created_at	                object      	Date and time when the tweet was created
+timestamp	                  object      	Timestamp of the tweet
+crawled_at	                object      	Date and time when the tweet was crawled
+updated	                    object      	Date and time when the tweet was last updated
+IsBot	                      int64	        Binary indicator of whether the account is a bot (1) or genuine (0)
