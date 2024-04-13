@@ -1,7 +1,9 @@
 DSA4263
 ==============================
 Sense-making Case Analysis: Business and Commerce
+
 Final Project: Twitter Bot Detection
+
 by Binali Manilka Pilapitiya De Alwis, Amirtha D/O Anbalagan, Chang An Le Harry Jr, Eldora Boo Puay Eng, Bryan Yeo, Dongmen Runze
  
 Summary
